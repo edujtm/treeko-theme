@@ -1,0 +1,21 @@
+{
+    "name": "treeko",
+    "displayName": "Treeko",
+    "description": "A modified gruvbox theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Treeko",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Treeko-color-theme.json"
+            }
+        ]
+    }
+}
