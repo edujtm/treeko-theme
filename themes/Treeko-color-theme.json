@@ -1623,6 +1623,64 @@
 			"settings": {
 				"foreground": "#B267E6"
 			}
-		}
+		},
+        // Rust configuration
+        {
+            "name": "Rust namespaces",
+            "scope": [
+                "entity.name.namespace.rust",
+                "entity.name.module.rust"
+            ],
+            "settings": {
+            "foreground": "#EBDBB2"
+            }
+        },
+        {
+            "name": "Rust Macros",
+            "scope": [
+            "entity.name.function.macro.rust"
+            ],
+            "settings": {
+            "foreground": "#FABD2F",
+            }
+        },
+        {
+
+            "name": "Rust lifetimes",
+            "scope": [
+            "entity.name.type.lifetime"
+            ],
+            "settings": {
+            "foreground": "#D3869B",
+            }
+        },
+        {
+            "name": "Rust Attributes",
+            "scope": [
+            "meta.attribute.rust"
+            ],
+            "settings": {
+            "foreground": "#FABD2F",
+            }
+        },
+        {
+            "name": "Rust Primitives",
+            "scope": [
+            "entity.name.type.primitive.rust",
+            "entity.name.type.numeric.rust",
+            ],
+            "settings": {
+            "foreground": "#FABD2F",
+            }
+        },
+        {
+            "name": "Rust Decimal",
+            "scope": [
+            "constant.numeric.decimal.rust"
+            ],
+            "settings": {
+            "foreground": "#D3869B",
+            }
+        }
 	]
 }
