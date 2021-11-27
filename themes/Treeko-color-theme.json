@@ -1557,7 +1557,9 @@
 				"foreground": "#FB4934"
 			}
 		},
+        //  ---- C# Configuration ----
 		{
+            "name": "C# Classes",
 			"scope": [
 				"storage.type.cs"
 			],
@@ -1566,14 +1568,17 @@
 			}
 		},
 		{
+            "name": "C# properties",
 			"scope": [
-				"variable.other.object.property.cs"
+				"variable.other.object.property.cs",
+                "entity.name.variable.property.cs"
 			],
 			"settings": {
 				"foreground": "#D3869B"
 			}
 		},
 		{
+            "name": "C# Parameters",
 			"scope": [
 				"entity.name.variable.parameter.cs",
 				"entity.name.variable.field.cs",
@@ -1584,7 +1589,17 @@
 				"foreground": "#EBDBB2"
 			}
 		},
+        {
+            "name": "C# primitives",
+            "scope": [
+                "keyword.type.cs"
+            ],
+            "settings": {
+                "foreground": "#FABD2F",
+            }
+        },
 		{
+            "name": "C# namespace names",
 			"scope": [
 				"entity.name.type.namespace.cs"
 			],
@@ -1593,6 +1608,7 @@
 			}
 		},
 		{
+            "name": "C# Usings",
 			"scope": [
 				"keyword.other.using.cs"
 			],
@@ -1624,7 +1640,7 @@
 				"foreground": "#B267E6"
 			}
 		},
-        // Rust configuration
+        // ---- Rust configuration ----
         {
             "name": "Rust namespaces",
             "scope": [
@@ -1680,6 +1696,46 @@
             ],
             "settings": {
             "foreground": "#D3869B",
+            }
+        },
+        // ---- Python Configuration ---
+        {
+            "name": "Python functions",
+            "scope": [
+            "entity.name.function.python",
+            "meta.function-call.generic.python",
+            "support.function.builtin.python"
+            ],
+            "settings": {
+            "foreground": "#B8BB26",
+            }
+        },
+        {
+            "name": "Python async keyword",
+            "scope": [
+            "storage.type.function.async.python",
+            ],
+            "settings": {
+            "foreground": "#FB4934"
+            }
+        },
+        {
+            "name": "Python string interpolation modifiers",
+            "scope": [
+            "storage.type.format.python"
+            ],
+            "settings": {
+            "foreground": "#D3869B",
+            }
+        },
+        {
+            "name": "Python self",
+            "scope": [
+            "variable.parameter.function.language.special.self.python",
+            "variable.language.special.self.python"
+            ],
+            "settings": {
+            "foreground": "#FE8019",
             }
         }
 	]
