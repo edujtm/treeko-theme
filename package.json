@@ -2,9 +2,10 @@
     "name": "treeko",
     "displayName": "Treeko",
     "description": "A modified gruvbox theme",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "publisher": "edujtm",
     "repository": "https://github.com/edujtm/treeko-theme",
+    "icon": "img/treeko-icon.png",
     "engines": {
         "vscode": "^1.62.0"
     },
