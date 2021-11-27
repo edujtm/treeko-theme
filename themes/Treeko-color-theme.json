@@ -1737,6 +1737,15 @@
             "settings": {
             "foreground": "#FE8019",
             }
-        }
+        },
+        {
+            "name": "Python member access",
+            "scope": [
+                "meta.member.access.python",
+            ],
+                "settings": {
+                "foreground": "#D3869B",
+            }
+        },
 	]
 }
