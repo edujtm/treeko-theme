@@ -1640,112 +1640,169 @@
 				"foreground": "#B267E6"
 			}
 		},
-        // ---- Rust configuration ----
-        {
-            "name": "Rust namespaces",
-            "scope": [
-                "entity.name.namespace.rust",
-                "entity.name.module.rust"
-            ],
-            "settings": {
-            "foreground": "#EBDBB2"
-            }
-        },
-        {
-            "name": "Rust Macros",
-            "scope": [
-            "entity.name.function.macro.rust"
-            ],
-            "settings": {
-            "foreground": "#FABD2F",
-            }
-        },
-        {
+    // ---- Rust configuration ----
+    {
+        "name": "Rust namespaces",
+        "scope": [
+            "entity.name.namespace.rust",
+            "entity.name.module.rust"
+        ],
+        "settings": {
+        "foreground": "#EBDBB2"
+        }
+    },
+    {
+        "name": "Rust Macros",
+        "scope": [
+        "entity.name.function.macro.rust"
+        ],
+        "settings": {
+        "foreground": "#FABD2F",
+        }
+    },
+    {
 
-            "name": "Rust lifetimes",
-            "scope": [
-            "entity.name.type.lifetime"
-            ],
+        "name": "Rust lifetimes",
+        "scope": [
+        "entity.name.type.lifetime"
+        ],
+        "settings": {
+        "foreground": "#D3869B",
+        }
+    },
+    {
+        "name": "Rust Attributes",
+        "scope": [
+        "meta.attribute.rust"
+        ],
+        "settings": {
+        "foreground": "#FABD2F",
+        }
+    },
+    {
+        "name": "Rust Primitives",
+        "scope": [
+        "entity.name.type.primitive.rust",
+        "entity.name.type.numeric.rust",
+        ],
+        "settings": {
+        "foreground": "#FABD2F",
+        }
+    },
+    {
+        "name": "Rust Decimal",
+        "scope": [
+        "constant.numeric.decimal.rust"
+        ],
+        "settings": {
+        "foreground": "#D3869B",
+        }
+    },
+    // ---- Python Configuration ---
+    {
+        "name": "Python functions",
+        "scope": [
+        "entity.name.function.python",
+        "meta.function-call.generic.python",
+        "support.function.builtin.python"
+        ],
+        "settings": {
+        "foreground": "#B8BB26",
+        }
+    },
+    {
+        "name": "Python async keyword",
+        "scope": [
+        "storage.type.function.async.python",
+        ],
+        "settings": {
+        "foreground": "#FB4934"
+        }
+    },
+    {
+        "name": "Python string interpolation modifiers",
+        "scope": [
+        "storage.type.format.python"
+        ],
+        "settings": {
+        "foreground": "#D3869B",
+        }
+    },
+    {
+        "name": "Python self",
+        "scope": [
+        "variable.parameter.function.language.special.self.python",
+        "variable.language.special.self.python"
+        ],
+        "settings": {
+        "foreground": "#FE8019",
+        }
+    },
+    {
+        "name": "Python member access",
+        "scope": [
+            "meta.member.access.python",
+        ],
             "settings": {
             "foreground": "#D3869B",
-            }
-        },
-        {
-            "name": "Rust Attributes",
-            "scope": [
-            "meta.attribute.rust"
-            ],
-            "settings": {
-            "foreground": "#FABD2F",
-            }
-        },
-        {
-            "name": "Rust Primitives",
-            "scope": [
-            "entity.name.type.primitive.rust",
-            "entity.name.type.numeric.rust",
-            ],
-            "settings": {
-            "foreground": "#FABD2F",
-            }
-        },
-        {
-            "name": "Rust Decimal",
-            "scope": [
-            "constant.numeric.decimal.rust"
-            ],
-            "settings": {
-            "foreground": "#D3869B",
-            }
-        },
-        // ---- Python Configuration ---
-        {
-            "name": "Python functions",
-            "scope": [
-            "entity.name.function.python",
-            "meta.function-call.generic.python",
-            "support.function.builtin.python"
-            ],
-            "settings": {
-            "foreground": "#B8BB26",
-            }
-        },
-        {
-            "name": "Python async keyword",
-            "scope": [
-            "storage.type.function.async.python",
-            ],
-            "settings": {
-            "foreground": "#FB4934"
-            }
-        },
-        {
-            "name": "Python string interpolation modifiers",
-            "scope": [
-            "storage.type.format.python"
-            ],
-            "settings": {
-            "foreground": "#D3869B",
-            }
-        },
-        {
-            "name": "Python self",
-            "scope": [
-            "variable.parameter.function.language.special.self.python",
-            "variable.language.special.self.python"
-            ],
-            "settings": {
-            "foreground": "#FE8019",
-            }
-        },
-        {
-            "name": "Python member access",
-            "scope": [
-                "meta.member.access.python",
-            ],
-                "settings": {
-                "foreground": "#D3869B",
-            }
-        },
+        }
+    },
+    // ------  Java Configuration  ------
+    {
+      "name": "Java Classes",
+      "scope": [
+        "storage.type.java",
+        "storage.type.object.array.java"
+      ],
+      "settings": {
+        "foreground": "#8EC07C"
+      }
+    },
+    {
+      "name": "Java primitives",
+      "scope": [
+        "storage.type.primitive.java"
+      ],
+      "settings": {
+        "foreground": "#8EC07C"
+        //"foreground": "#FABD2F"
+      }
+    },
+    {
+      "name": "Object Properties",
+      "scope": [
+        "variable.other.object.property.java"
+      ],
+      "settings": {
+        "foreground": "#D3869B"
+      }
+    },
+    {
+      "name": "Annotations",
+      "scope": [
+        "storage.type.annotation.java"
+      ],
+      "settings": {
+        "foreground": "#e37c6c"
+      }
+    },
+    {
+      "name": "Annotation Constants",
+      "scope": [
+        "constant.other.key.java"
+      ],
+      "settings": {
+        "foreground": "#EBDBB2"
+      }
+    },
+    {
+      "name": "Generics",
+      "scope": [
+        "storage.type.generic.java"
+      ],
+      "settings": {
+        "foreground": "#FABD2F"
+      }
+    }
 	]
 }
